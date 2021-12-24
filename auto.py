@@ -2,16 +2,17 @@ import webbrowser
 import time
 import pyautogui
 print("Started")
-for k in range(40):
+for k in range(30):
     webbrowser.open("https://keshavbits.herokuapp.com")
-    time.sleep(8)
+    time.sleep(9)
     pyautogui.moveTo(900, 500)
     time.sleep(4)
     pyautogui.click()
-    time.sleep(6)
-    pyautogui.hotkey('ctrl', 'w')
+    time.sleep(8)
+    
     time.sleep(2)
-    pyautogui.hotkey('ctrl', 'w') 
+    print(30-k)
+    
 
 
 
