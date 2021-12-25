@@ -1,17 +1,17 @@
 import webbrowser
 import time
-# import pyautogui
+import pyautogui
 print("Started")
 n=1
 while n<1000:
     webbrowser.open("https://keshavbits.herokuapp.com")
     time.sleep(7)
-    # pyautogui.moveTo(900, 500)
-    # time.sleep(4)
-    # pyautogui.click()
-    # time.sleep(8)
+    pyautogui.moveTo(900, 500)
+    time.sleep(4)
+    pyautogui.click()
+    time.sleep(8)
     
-    # time.sleep(2)
+    time.sleep(2)
     n=n+1
     print(n)
     
